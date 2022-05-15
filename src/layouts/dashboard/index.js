@@ -27,7 +27,7 @@ function Dashboard({ authorized }) {
       <MDBox py={3}>
         <Grid container spacing={3}>
           <Grid item xs={12}>
-            <BedandBill total="7" info="Total Beds" more="More Info" />
+            <BedandBill total="7" info="" more="More Info" />
           </Grid>
           <Grid item xs={12}>
             <Expenditures />
@@ -38,17 +38,11 @@ function Dashboard({ authorized }) {
         <MDBox mt={5}>
           <Grid container spacing={2} rowSpacing={50}>
             <Grid item xs={12}>
-
               <RecentTransactions />
-
             </Grid>
-            
-
 
             <Grid item xs={12}>
-
               <AvailabeRooms />
-
             </Grid>
           </Grid>
         </MDBox>

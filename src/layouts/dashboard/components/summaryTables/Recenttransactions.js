@@ -64,7 +64,7 @@ return (
 {/* <DataGrid rows={table} columns={columns} pageSize={5} rowsPerPageOptions={[ 5 ]} /> */}
 <Grid>
 <MaterialTable
-title="Recent Transaction"
+title="Recent Transactions"
 data={transaction}
 // sx={{ color: "white" }}
 columns={columns}
